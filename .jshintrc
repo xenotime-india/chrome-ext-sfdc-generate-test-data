@@ -1,0 +1,11 @@
+{
+  "esversion": 6,
+  "globals": {
+    "window": true,
+    "localStorage": true,
+    "console": true,
+    "setTimeout": true,
+    "document": true,
+    "sessionStorage": true
+  }
+}
