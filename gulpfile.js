@@ -9,10 +9,12 @@ const gulp = require("gulp"),
   jshint = require("gulp-jshint"),
   stripdebug = require("gulp-strip-debug"),
   uglify = require("gulp-uglify"),
-  zip = require("gulp-zip"),
-  gutil = require("gulp-util");
+  zip = require("gulp-zip");
+const  gutil = require("gulp-util");
 const sourcemaps = require("gulp-sourcemaps");
 const rename = require("gulp-rename");
+
+
 
 //clean build directory
 gulp.task("insideExtension-clean", function() {
